@@ -11,4 +11,66 @@ div.img-resize {
     overflow: hidden;
     text-align: center;
 }
+/* page1.css */
 
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 20px;
+  }
+  
+  /* Hero section styles */
+  #home {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #home img {
+    width: 200px; /* Adjust the size as needed */
+    border-radius: 50%; /* Make the image round */
+  }
+  
+  /* About section styles */
+  #aboutus {
+    margin-bottom: 20px;
+  }
+  
+  /* Contact section styles */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
