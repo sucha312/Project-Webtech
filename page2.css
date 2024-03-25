@@ -60,9 +60,18 @@ body, h1, h2, h3, p, ul, li {
   }
   
   /* Contact section styles */
-  footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #8a2be2;
-    color: #ffd954;
+  footer button {
+    padding: 10px 20px;
+    background-color: #5fa085;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* เพิ่มเอฟเฟ็กต์การเปลี่ยนสี */
   }
+  
+  footer button:hover {
+    background-color: #7c60b0;
+  }
+  
