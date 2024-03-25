@@ -11,3 +11,56 @@ div.img-resize {
     overflow: hidden;
     text-align: center;
 }
+/* page2.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* เพิ่มสีพื้นหลัง */
+  }
+  
+  /* Portfolio section styles */
+  #portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  figure {
+    margin: 10px;
+    text-align: center;
+    background-color: #fff; /* เพิ่มสีพื้นหลัง */
+    border-radius: 5px; /* เพิ่มขอบมนเรียบ */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
+  }
+  
+  figcaption {
+    margin-top: 10px;
+  }
+  
+  figcaption h4 {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .img-resize img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Contact section styles */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
