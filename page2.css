@@ -17,11 +17,16 @@ div.img-resize {
 /* page2.css */
 
 /* Reset default margin and padding */
-body, h1, h2, h3, p, ul, li {
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
   }
-  
+body {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 1.5;
+  color: #8b4512;
+}
   /* Global styles */
   body {
     font-family: Arial, sans-serif;
