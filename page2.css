@@ -39,13 +39,13 @@ body, h1, h2, h3, p, ul, li {
   figure {
     margin: 10px;
     text-align: center;
-    background-color: #c8b6a6; /* เพิ่มสีพื้นหลัง */
+    background-color: #ff5e8a; /* เพิ่มสีพื้นหลัง */
     border-radius: 5px; /* เพิ่มขอบมนเรียบ */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
   }
   
   figcaption {
-    margin-top: 10px;
+    margin-top: 20px;
   }
   
   figcaption h4 {
@@ -63,6 +63,6 @@ body, h1, h2, h3, p, ul, li {
   footer {
     text-align: center;
     padding: 15px;
-    background-color: #333;
+    background-color: #8a2be2;
     color: #fff;
   }
