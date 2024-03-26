@@ -103,7 +103,7 @@ function startGame() {
   document.getElementById("gameOverText").innerText = "";
   document.getElementById("score").innerText = score;
   generateFood();
-  gameLoop = setInterval(updateGame, 100);
+  gameLoop = setInterval(updateGame, 250);
 }
 
 document.addEventListener("keydown", keyDownHandler);
