@@ -1,6 +1,6 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
-const blockSize = 20;
+const blockSize = 30;
 let snake = [{ x: 10, y: 10 }];
 let food = { x: 15, y: 10 };
 let dx = 1;
