@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #000000;
+  background-color: #998ed9;
 }
 
 /* Top menu styles */
@@ -27,7 +27,7 @@ header {
 
 /* Sidebar styles */
 .w3-sidebar {
-  background-color: #f8f8f8; /* เปลี่ยนสีพื้นหลังของ Sidebar */
+  background-color: #009999; /* เปลี่ยนสีพื้นหลังของ Sidebar */
   width: 40%; /* ปรับความกว้างของ Sidebar */
   min-width: 300px;
 }
